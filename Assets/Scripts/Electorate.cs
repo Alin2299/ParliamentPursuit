@@ -1,7 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Public class that represents an electorate in the game
+/// </summary>
 public class Electorate : MonoBehaviour
 {
     private string electorateName;
@@ -15,37 +17,19 @@ public class Electorate : MonoBehaviour
         set { candidates = value; }
     }
 
-    private void Start()
+    public GameObject OriginalElectorate
     {
-        if (name.Contains("(Clone)"))
-        {
-            name = name.Replace("(Clone)", "");
-            originalElectorate = GameObject.Find(name);
-        }
-        else
-        {
-            originalElectorate = GameObject.Find(name + "(Clone)");
-        }
-
+        get { return originalElectorate; }
+        set { originalElectorate = value; }
     }
 
     void OnMouseEnter()
     {
-        GetComponent<Renderer>().material.color = Color.white;
-
-        if (originalElectorate != null)
-        {
-            originalElectorate.GetComponent<Renderer>().material.color = Color.white;
-        }
+        MapManager.Instance.HighlightElectorate(originalElectorate, this.gameObject);
     }
 
     void OnMouseExit()
     {
-        GetComponent<Renderer>().material.color = Color.gray;
-
-        if (originalElectorate != null)
-        { 
-            originalElectorate.GetComponent<Renderer>().material.color = Color.gray;
-        }
+        MapManager.Instance.UnhighlightElectorate(originalElectorate, this.gameObject);
     }
 }

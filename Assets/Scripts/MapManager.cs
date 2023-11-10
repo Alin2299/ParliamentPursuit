@@ -3,11 +3,22 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class NZElectorateMap : MonoBehaviour
+/// <summary>
+/// Public singleton class that manages data/info related to the electorates and the electorate maps/meshes
+/// </summary>
+public sealed class MapManager : MonoBehaviour
 {
-    public GameObject electorateMap;
+    private static MapManager instance;
+    public GameObject generalElectoratesMap;
+    public GameObject māoriElectoratesMap;
     public Material lineMaterial;
-    public TextAsset jsonFile;
+    public TextAsset generalElectoratesMeshJSON;
+    public TextAsset māoriElectoratesMeshJSON;
+    public GameObject insets;
+
+    public TextAsset electorateDataJSON;
+
+    private List<GameObject> electorates = new List<GameObject>();
 
     readonly List<string> aucklandElectorates = new List<string>
         {
@@ -27,46 +38,30 @@ public class NZElectorateMap : MonoBehaviour
         {
             "Hamilton East", "Hamilton West"
         };
+    public static MapManager Instance
+    {
+        get { return instance; }
+    }
 
+    public List<GameObject> Electorates
+    {
+        get { return electorates; }
+        set { electorates = value; }
+    }
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            instance = this;
+        }
+    }
     void Start()
     {
-        var parsedJSON = JSON.Parse(jsonFile.text);
-        var features = parsedJSON["features"].AsArray;
-        int counter = 0;
-        foreach (JSONNode feature in features)
-        {
-            var geometry = feature["geometry"];
-            var coordinates = geometry["coordinates"].AsArray;
-            var electorateName = feature["properties"]["GED2020__1"];
+        ParseMapData(generalElectoratesMeshJSON, "GeneralElectoratesMesh", false);
+        ParseMapData(māoriElectoratesMeshJSON, "MāoriElectoratesMesh", true);
 
-            GameObject mapContainer = GameObject.Find("ElectoratesMesh");
-
-            GameObject electorateGO = mapContainer.transform.GetChild(counter).gameObject;
-            electorateGO.name = electorateName;
-            electorateGO.transform.parent = mapContainer.transform;
-
-            if (geometry["type"] == "MultiPolygon")
-            {
-                int polyIndex = 0;
-                foreach (JSONNode multiPolygon in coordinates)
-                {
-                    foreach (JSONNode polygon in multiPolygon.AsArray)
-                    {
-                        GameObject polygonGO = new GameObject("Polygon_" + polyIndex);
-                        polygonGO.transform.parent = electorateGO.transform;
-                        CreateLine(polygon.AsArray, polygonGO);
-                        polyIndex++;
-                    }
-                }
-            }
-            else if (geometry["type"] == "Polygon")
-            {
-                CreateLine(coordinates[0].AsArray, electorateGO);
-            }
-            counter++;
-        }
-
-        foreach (Transform electorateObject in electorateMap.transform)
+        foreach (Transform electorateObject in generalElectoratesMap.transform)
         {
             string electorateName = electorateObject.name;
             if (electorateObject.GetComponent<MeshCollider>() == null)
@@ -74,6 +69,7 @@ public class NZElectorateMap : MonoBehaviour
                 MeshCollider collider = electorateObject.AddComponent<MeshCollider>();
                 electorateObject.AddComponent<Electorate>();
                 electorateObject.tag = "Electorate";
+                electorates.Add(electorateObject.gameObject);
             }
 
             if (electorateName.Equals("Tauranga") || electorateName.Equals("Palmerston North"))
@@ -113,6 +109,90 @@ public class NZElectorateMap : MonoBehaviour
                 }
             }
         }
+
+        foreach (Transform electorateObject in māoriElectoratesMap.transform)
+        {
+            string electorateName = electorateObject.name;
+            if (electorateObject.GetComponent<MeshCollider>() == null)
+            {
+                MeshCollider collider = electorateObject.AddComponent<MeshCollider>();
+                electorateObject.AddComponent<Electorate>();
+                electorateObject.tag = "Electorate";
+                electorates.Add(electorateObject.gameObject);
+            }
+        }
+
+        var parsedElectorateDataJSON = JSON.Parse(electorateDataJSON.text);
+        var electoratesData = parsedElectorateDataJSON["Electorates"].AsArray;
+        foreach (JSONNode electorate in electoratesData)
+        {
+            var candidates = electorate["Candidates"];
+            var electorateName = electorate["Name"];
+
+            foreach (JSONNode candidate in candidates)
+            {
+                var candidateName = candidate["Name"];
+                var candidateParty = candidate["PartyAffiliation"];
+
+                GameObject associatedElectorate = electorates.Find(electorate => electorate.name.Equals(electorateName));
+                Party associatedParty = GameManager.Instance.GameState.AvailableParties.Find(party => party.PartyName.Equals(candidateParty));
+
+                if (associatedParty != null)
+                {
+                    associatedElectorate.GetComponent<Electorate>().Candidates.Add(new Candidate(candidateName, associatedParty));
+                }
+            }
+        }
+
+        ToggleMāoriElectoratesVisibility();
+
+    }
+    void ParseMapData(TextAsset JSONData, string meshContainerName, bool māoriElectorates)
+    {
+        var parsedMeshJSON = JSON.Parse(JSONData.text);
+        var features = parsedMeshJSON["features"].AsArray;
+        int counter = 0;
+        foreach (JSONNode feature in features)
+        {
+            var geometry = feature["geometry"];
+            var coordinates = geometry["coordinates"].AsArray;
+
+            var electorateName = "";
+            if (māoriElectorates != true)
+            {
+                electorateName = feature["properties"]["GED2020__1"];
+            }
+            else
+            {
+                electorateName = feature["properties"]["MED2020__1"];
+            }
+
+            GameObject mapContainer = GameObject.Find(meshContainerName);
+
+            GameObject electorateGO = mapContainer.transform.GetChild(counter).gameObject;
+            electorateGO.name = electorateName;
+            electorateGO.transform.parent = mapContainer.transform;
+
+            if (geometry["type"] == "MultiPolygon")
+            {
+                int polyIndex = 0;
+                foreach (JSONNode multiPolygon in coordinates)
+                {
+                    foreach (JSONNode polygon in multiPolygon.AsArray)
+                    {
+                        GameObject polygonGO = new GameObject("Polygon_" + polyIndex);
+                        polygonGO.transform.parent = electorateGO.transform;
+                        CreateLine(polygon.AsArray, polygonGO);
+                        polyIndex++;
+                    }
+                }
+            }
+            else if (geometry["type"] == "Polygon")
+            {
+                CreateLine(coordinates[0].AsArray, electorateGO);
+            }
+            counter++;
+        }
     }
 
     void DuplicateElectorate(GameObject electorateObject, string insetName)
@@ -122,8 +202,9 @@ public class NZElectorateMap : MonoBehaviour
 
         duplicateElectorate.transform.SetParent(inset.transform, false);
         duplicateElectorate.transform.localScale = Vector3.one;
+        duplicateElectorate.name = duplicateElectorate.name.Replace("(Clone)", "");
+        duplicateElectorate.GetComponent<Electorate>().OriginalElectorate = electorateObject;
     }
-
 
     void CreateLine(JSONArray coordinateSet, GameObject parentGO)
     {
@@ -166,6 +247,93 @@ public class NZElectorateMap : MonoBehaviour
             else
             {
                 GameManager.Instance.GameState.SelectedElectorate = null;
+            }
+        }
+    }
+
+    public void HighlightElectorate(GameObject originalElectorate, GameObject duplicateElectorate)
+    {
+        duplicateElectorate.GetComponent<Renderer>().material.color = Color.white;
+
+        if (originalElectorate != null)
+        {
+            originalElectorate.GetComponent<Renderer>().material.color = Color.white;
+        }
+    }
+
+    public void UnhighlightElectorate(GameObject originalElectorate, GameObject duplicateElectorate)
+    {
+        duplicateElectorate.GetComponent<Renderer>().material.color = Color.gray;
+
+        if (originalElectorate != null)
+        {
+            originalElectorate.GetComponent<Renderer>().material.color = Color.gray;
+        }
+    }
+
+    public void ToggleGeneralElectoratesVisibility()
+    {
+        generalElectoratesMap.SetActive(!generalElectoratesMap.activeSelf);
+        insets.SetActive(!insets.activeSelf);
+
+        foreach (Transform electorateObject in generalElectoratesMap.transform)
+        {
+            if (electorateObject.transform.childCount > 0)
+            {
+                foreach (Transform child in electorateObject.transform)
+                {
+                    child.GetComponent<LineRenderer>().enabled = !child.GetComponent<LineRenderer>().enabled;
+                }
+            }
+            else
+            {
+                electorateObject.GetComponent<LineRenderer>().enabled = !electorateObject.GetComponent<LineRenderer>().enabled;
+            }
+        }
+
+        foreach (Transform inset in insets.transform)
+        {
+            foreach (Transform insetElectorate in inset)
+            {
+
+                if (insetElectorate.childCount > 0)
+                {
+                    foreach (Transform child in insetElectorate.transform)
+                    {
+                        child.GetComponent<LineRenderer>().enabled = !child.GetComponent<LineRenderer>().enabled;
+                    }
+                }
+                else
+                {
+                    insetElectorate.GetComponent<LineRenderer>().enabled = !insetElectorate.GetComponent<LineRenderer>().enabled;
+                }
+            }
+        }
+    }
+
+    public void ToggleMāoriElectoratesVisibility()
+    {
+        if (māoriElectoratesMap.activeSelf == true)
+        {
+            māoriElectoratesMap.SetActive(false);
+        }
+        else
+        {
+            māoriElectoratesMap.SetActive(true);
+        }
+
+        foreach (Transform electorateObject in māoriElectoratesMap.transform)
+        {
+            if (electorateObject.transform.childCount > 0)
+            {
+                foreach (Transform child in electorateObject.transform)
+                {
+                    child.GetComponent<LineRenderer>().enabled = !child.GetComponent<LineRenderer>().enabled;
+                }
+            }
+            else
+            {
+                electorateObject.GetComponent<LineRenderer>().enabled = !electorateObject.GetComponent<LineRenderer>().enabled;
             }
         }
     }

@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Public class that stores info related to the current game state
+/// </summary>
 public class GameState
 {
-    private int currentWeek;
+    private int weeksRemaining;
 
     private Party playerParty;
 
@@ -12,10 +15,10 @@ public class GameState
 
     private GameObject selectedElectorate;
 
-    public int CurrentWeek
+    public int WeeksRemaining
     {
-        get { return currentWeek; }
-        set { currentWeek = value; }
+        get { return weeksRemaining; }
+        set { weeksRemaining = value; }
     }
 
     public Party PlayerParty

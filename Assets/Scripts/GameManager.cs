@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Public singleton class that manages the overall game
+/// </summary>
 public sealed class GameManager : MonoBehaviour
 {
     private static GameManager instance;
@@ -26,11 +29,15 @@ public sealed class GameManager : MonoBehaviour
             Party partyToAdd = new Party(partyName);
             gameState.AvailableParties.Add(partyToAdd);
 
+            // USED FOR TESTING
             if (partyName.Equals("The Opportunities Party"))
             {
                 gameState.PlayerParty = partyToAdd;
             }
         }
+
+        gameState.WeeksRemaining = 5;
+
     }
 
 

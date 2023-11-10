@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Public class that represents a political party in the game
+/// </summary>
 public class Party
 {
     private string partyName;

@@ -1,9 +1,2345 @@
 {
-	"electorates": [
-	{"population": ""},
-	
-	
-	
-	
-	]
+  "Electorates": [
+    {
+      "Name": "Auckland Central",
+      "Candidates": [
+        {
+          "Name": "Christopher Coker",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Paul Davie",
+          "PartyAffiliation": "Rock The Vote NZ"
+        },
+        {
+          "Name": "Madeleine Kane",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Andi Shen Liu",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Mahesh Muralidhar",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Felix Poole",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Oscar Sims",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Guy Slocum",
+          "PartyAffiliation": "New Nation"
+        },
+        {
+          "Name": "Chlöe Swarbrick",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Damian Sycamore",
+          "PartyAffiliation": "The Opportunities Party"
+        }
+      ]
+    },
+    {
+      "Name": "Banks Peninsula",
+      "Candidates": [
+        {
+          "Name": "Doug Allington",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Paran Jeet",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Lindsay Kerslake",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Tracey McLellan",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Lisa Mead",
+          "PartyAffiliation": "NewZeal"
+        },
+        {
+          "Name": "Lan Pham",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Laura Trask",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Peter Wakeman",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Vanessa Weenink",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Bay of Plenty",
+      "Candidates": [
+        {
+          "Name": "Wendy Gillespie",
+          "PartyAffiliation": "Leighton Baker Party"
+        },
+        {
+          "Name": "Caitlin Grattan",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Cameron Luxton",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Matthew Macmillan",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Kirsten Murfitt",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Tom Rutherford",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Pare Taikato",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Taupo Wahed",
+          "PartyAffiliation": "Independent"
+        }
+      ]
+    },
+    {
+      "Name": "Botany",
+      "Candidates": [
+        {
+          "Name": "John Armstrong",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Bo Burns",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Dieuwe de Boer",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Christopher Luxon",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Robert McNeil",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Kharag Singh",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Mark Terrill",
+          "PartyAffiliation": "Vision NZ"
+        }
+      ]
+    },
+    {
+      "Name": "Christchurch Central",
+      "Candidates": [
+        {
+          "Name": "Mark Arneil",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Michael Britnell",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Kahurangi Carter",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Matthew Fisken",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Sarah Jackson",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Dale Stephens",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Duncan Webb",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Christchurch East",
+      "Candidates": [
+        {
+          "Name": "Sahra Ahmed",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Reuben Davidson",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Helen Houghton",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Paula Lambert",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Sam Park",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Toni Severin",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Matt Stock",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Danette Wereta",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Shane Wiremu",
+          "PartyAffiliation": "NZ First"
+        }
+      ]
+    },
+    {
+      "Name": "Coromandel",
+      "Candidates": [
+        {
+          "Name": "Caleb Ansell",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Ray Cobb",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Pamela Grealey",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Beryl Riley",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Scott Simpson",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Sarai TePou",
+          "PartyAffiliation": "Outdoors"
+        },
+        {
+          "Name": "Joanna Verburg",
+          "PartyAffiliation": "ACT"
+        }
+      ]
+    },
+    {
+      "Name": "Dunedin",
+      "Candidates": [
+        {
+          "Name": "Rachel Brooking",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Cyndee Elder",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Francisco Hernandez",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Keegan Langeveld",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Adrian McDermott",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Tim Newman",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Jim O'Malley",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Benjamin Peters",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Pamela Taylor",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Michael Woodhouse",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "East Coast",
+      "Candidates": [
+        {
+          "Name": "Monaco Caracas",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Tāmati Coffey",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Gordon Dickson",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Fallyn Flavell",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Michael Howe",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Dana Kirkpatrick",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Leighton Packer",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Don Richards",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Chris Robinson",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Craig Sinclair",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Jordan Walker",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "East Coast Bays",
+      "Candidates": [
+        {
+          "Name": "Paul Adams",
+          "PartyAffiliation": "NewZeal"
+        },
+        {
+          "Name": "Naisi Chen",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Bill Dyet",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Michael McCook",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Erica Stanford",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Epsom",
+      "Candidates": [
+        {
+          "Name": "Camilla Belich",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Paul Goldsmith",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Anna Rotheray",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "David Seymour",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Nina Su",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Tanya Unkovich",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Lawrence Xu-Nan",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Hamilton East",
+      "Candidates": [
+        {
+          "Name": "Tanya Ban",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Lily Carrington",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Alex Corkin",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Nathan Lee Couper"
+        },
+        {
+          "Name": "Georgie Dansey",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Jacobus Gielen",
+          "PartyAffiliation": "Republic of New Zealand Party"
+        },
+        {
+          "Name": "Ryan Hamilton",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Russelle Knaap",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Awatea Parker",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Ash Parmar",
+          "PartyAffiliation": "ACT"
+        }
+      ]
+    },
+    {
+      "Name": "Hamilton West",
+      "Candidates": [
+        {
+          "Name": "Benjamin Doyle",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Rudi du Plooy",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Naomi Pocock",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Tama Potaka",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Susan Stevenson",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Kevin Stone",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Myra Williamson",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Melanie Wilson",
+          "PartyAffiliation": "Animal Justice"
+        }
+      ]
+    },
+    {
+      "Name": "Hutt South",
+      "Candidates": [
+        {
+          "Name": "Ginny Andersen",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Chris Bishop",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Jordan Blake",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Lee Donoghue",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Neelu Jennings",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Andy Parkins",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Max Rangitutia",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Ben Wylie-van Eerd",
+          "PartyAffiliation": "The Opportunities Party"
+        }
+      ]
+    },
+    {
+      "Name": "Ilam",
+      "Candidates": [
+        {
+          "Name": "Irinka Britnell",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Hamish Campbell",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Mike Davidson",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Raf Manji",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Chris O'Brien",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Juanita O'Connell",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Sarah Pallett",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Invercargill",
+      "Candidates": [
+        {
+          "Name": "Liz Craig",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Scott Donaldson",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "David Kowalewski",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Kevin O'Connell",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Penny Simmonds",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Judith Terrill",
+          "PartyAffiliation": "Vision NZ"
+        }
+      ]
+    },
+    {
+      "Name": "Kaikōura",
+      "Candidates": [
+        {
+          "Name": "Jamie Arbuckle",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Shaun Brown",
+          "PartyAffiliation": "Money Free Party"
+        },
+        {
+          "Name": "Sandra Campbell",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Natalie Colello",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Emma Dewhirst",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "David Greensslade",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Keith Griffiths",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Ted Howard",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "John McCaskey",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Richard McCubbin",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Stuart Smith",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Alec McNeil",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Kaipara ki Mahurangi",
+      "Candidates": [
+        {
+          "Name": "Brent Bailey",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Sarah Brewer",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Zephyr Brown",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Jenny Marcroft",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Chris Penk",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Guy Wishart",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Anto Coates",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Brenton Faithfull",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "Kelston",
+      "Candidates": [
+        {
+          "Name": "Jake Curran",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Anne Degia-Pala",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Golriz Ghahraman",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Jacqui Harema",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Alister Hood",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Ruby Manukia Schaumkel",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Carmel Sepuloni",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Leao Tildsley",
+          "PartyAffiliation": "DemocracyNZ"
+        }
+      ]
+    },
+    {
+      "Name": "Mana",
+      "Candidates": [
+        {
+          "Name": "Kush Bhargava"
+        },
+        {
+          "Name": "Lily Brown",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Gina Dao-McLay",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Barbara Edmonds",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Andy Foster",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Richard Goode"
+        },
+        {
+          "Name": "Frances Hughes",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Lisa Temperton",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "Māngere",
+      "Candidates": [
+        {
+          "Name": "Fuiavailili Ala'ilima",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Rosemary Bourke",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Pothen Joseph",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Brooke Pao Stanley",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Hilda Peters",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Lemauga Lydia Sosene",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Peter Sykes",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Manurewa",
+      "Candidates": [
+        {
+          "Name": "Siva Kilari",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Rangi McLean",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Caine Warren",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Arena Williams",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Maungakiekie",
+      "Candidates": [
+        {
+          "Name": "Phillip Bridge",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Eric Chuah",
+          "PartyAffiliation": "Rock The Vote NZ"
+        },
+        {
+          "Name": "Greg Fleming",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Andrew Hogg",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Margo Onishchenko",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Priyanca Radhakrishnan",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Sapna Samant",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Mt Albert",
+      "Candidates": [
+        {
+          "Name": "Melissa Lee",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Ricardo Menéndez March",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Ollie Murphy",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Tesi Naufahu",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Ciara Swords",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Anthony van den Heuvel"
+        },
+        {
+          "Name": "Helen White",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Mt Roskill",
+      "Candidates": [
+        {
+          "Name": "Carlos Cheung",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Rahul Chopra",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Suveen Sanis Walgampola",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Michael Wood",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Napier",
+      "Candidates": [
+        {
+          "Name": "Julienne Dickey",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Mark Hutchinson",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Martin Langford",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Pawel Milewski",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Katie Nimon",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "John Smith",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Laurie Turnbull",
+          "PartyAffiliation": "NZ First"
+        }
+      ]
+    },
+    {
+      "Name": "Nelson",
+      "Candidates": [
+        {
+          "Name": "Chris Baillie",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Rachel Boyack",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Blair Cameron",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Bruce Dyer",
+          "PartyAffiliation": "Progressive Aotearoa"
+        },
+        {
+          "Name": "Jace Hobbs",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Peter Vaughan",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "New Lynn",
+      "Candidates": [
+        {
+          "Name": "Steve Abel",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Juan Alvarez de Lugo",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Paulo Garcia",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Phineas Mann",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Steve Oliver",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Deborah Russell",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "New Plymouth",
+      "Candidates": [
+        {
+          "Name": "Glen Bennett",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "David MacLeod",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Bruce McGechan",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Greg Robinson",
+          "PartyAffiliation": "New Nation"
+        },
+        {
+          "Name": "Hamish Watkins",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Warren Willetts",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "North Shore",
+      "Candidates": [
+        {
+          "Name": "Pat Baskett",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Abe Gray",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "George Hampton",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Simon Watts",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Anna Yallop",
+          "PartyAffiliation": "ACT"
+        }
+      ]
+    },
+    {
+      "Name": "Northcote",
+      "Candidates": [
+        {
+          "Name": "Dan Bidois",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Mark Donaldson",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Leo Foley",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Shanan Halbert",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Andrew Shaw",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Michelle Warren",
+          "PartyAffiliation": "NZ First"
+        }
+      ]
+    },
+    {
+      "Name": "Northland",
+      "Candidates": [
+        {
+          "Name": "Mark Cameron",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Michael Feyen",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Mike Finlayson"
+        },
+        {
+          "Name": "Shane Jones",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Matt King",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Jeffrey Lye",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Grant McCallum",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Reina Penney",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Willow-Jean Prime",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Ōhāriu",
+      "Candidates": [
+        {
+          "Name": "Paul Day",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Jessica Hammond",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Martin Jenkins"
+        },
+        {
+          "Name": "Patrick Lim",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Greg O'Connor",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Stephanie Rodgers",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Nicola Willis",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Ōtaki",
+      "Candidates": [
+        {
+          "Name": "Tim Costley",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Ali Muhammad",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Terisa Ngobi",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Sean Rush",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Bryan Ten-Have",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Bob Wessex"
+        }
+      ]
+    },
+    {
+      "Name": "Pakuranga",
+      "Candidates": [
+        {
+          "Name": "John Alcock",
+          "PartyAffiliation": "Rock The Vote NZ"
+        },
+        {
+          "Name": "Simeon Brown",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Nicholas Hancock",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Nerissa Henry",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Parmjeet Parmar",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Phil Scothern",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "Palmerston North",
+      "Candidates": [
+        {
+          "Name": "Ankit Bansal",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Douglas Begg",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Dean Grant",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Mike Harnett",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Tangi Utikere",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Teanau Tuiono",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Panmure-Ōtāhuhu",
+      "Candidates": [
+        {
+          "Name": "Efeso Collins",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Antonia Modkova",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Karl Mokaraka",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Navtej Singh Randhawa",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "James Robb"
+        },
+        {
+          "Name": "Jenny Salesa",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Papakura",
+      "Candidates": [
+        {
+          "Name": "Judith Collins",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Kathy Harvey",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Anahila Kanongata'a-Suisuiki",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Karin Kerr",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Donna Kouka",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Mike McCormick",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Robert Monds",
+          "PartyAffiliation": "NZ First"
+        }
+      ]
+    },
+    {
+      "Name": "Port Waikato",
+      "Candidates": [
+        {
+          "Name": "Andrew Bayly",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Scotty Bright",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Karla Buchanan",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Neil Christensen†",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Casey Costello",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Gwendoline Keel",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Anna Rippon",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Vijay Sudhamalla",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Kim Turner",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "Rangitata",
+      "Candidates": [
+        {
+          "Name": "Robert Ballantyne",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Michael Clarkson",
+          "PartyAffiliation": "Rock The Vote NZ"
+        },
+        {
+          "Name": "Barbara Gilchrist",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Jo Luxton",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "James Meager",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Wayne Shearer",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Karl Thomas",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Dolf van Amersfoort",
+          "PartyAffiliation": "New Nation"
+        }
+      ]
+    },
+    {
+      "Name": "Rangitīkei",
+      "Candidates": [
+        {
+          "Name": "Zulfiqar Butt",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Bernard Long",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Andrew Hoggard",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Suze Redmayne",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Helma Vermeulen",
+          "PartyAffiliation": "NZ First"
+        }
+      ]
+    },
+    {
+      "Name": "Remutaka",
+      "Candidates": [
+        {
+          "Name": "Emma Chatterton",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Chris Hipkins",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Michael Hurle",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Chris Norton",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Tony Pitiroi",
+          "PartyAffiliation": "NewZeal"
+        },
+        {
+          "Name": "Heker Robertson",
+          "PartyAffiliation": "Vision NZ"
+        }
+      ]
+    },
+    {
+      "Name": "Rongotai",
+      "Candidates": [
+        {
+          "Name": "Atom Emet",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Fleur Fitzsimons",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Julie Anne Genter",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Don McDonald",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Nicole McKee",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Geoff Mills",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Karuna Muthu",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Merania Roa",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Bruce Welsh",
+          "PartyAffiliation": "New Conservative"
+        }
+      ]
+    },
+    {
+      "Name": "Rotorua",
+      "Candidates": [
+        {
+          "Name": "Kariana Black-Vercoe",
+          "PartyAffiliation": "NewZeal"
+        },
+        {
+          "Name": "Todd McClay",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Jonn Naera",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Merepeka Raukawa-Tait",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Marten Rozeboom",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Ben Sandford",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Selwyn",
+      "Candidates": [
+        {
+          "Name": "Abe Coulter",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Logan Courtney",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Nicola Grigg",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Ben Harvey",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Luke Jones",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Southland",
+      "Candidates": [
+        {
+          "Name": "Logan Evans",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Anntwinette Grumball",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Dave Kennedy",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Naomi Maclean",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Simon McCallum",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Joseph Mooney",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Todd Stephenson",
+          "PartyAffiliation": "ACT"
+        }
+      ]
+    },
+    {
+      "Name": "Taieri",
+      "Candidates": [
+        {
+          "Name": "Changrong Dong",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Matthew French",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Mac Gardner",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Ingrid Leary",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Berty Meffan",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Mark Patterson",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Fred Roberts",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "David Webber",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Scott Willis",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Stephen Jack",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Takanini",
+      "Candidates": [
+        {
+          "Name": "Rae Ah Chee",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Neru Leavasa",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Rima Nakhle",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Lynley Tulloch",
+          "PartyAffiliation": "Animal Justice"
+        }
+      ]
+    },
+    {
+      "Name": "Tāmaki",
+      "Candidates": [
+        {
+          "Name": "Simon O'Connor",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Anne Perratt",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Fesaitu Solomone",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Brooke van Velden",
+          "PartyAffiliation": "ACT"
+        }
+      ]
+    },
+    {
+      "Name": "Taranaki-King Country",
+      "Candidates": [
+        {
+          "Name": "William Bruce Burr",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Barbara Kuriger",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Daryl Raison",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Angela Roberts",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Taupō",
+      "Candidates": [
+        {
+          "Name": "Ala' Al-Bustanji",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Zane Cozens",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "George Patena",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Tira Pehi",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Louise Upston",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Gordon Wilson",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "Tauranga",
+      "Candidates": [
+        {
+          "Name": "Larry Baldock",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Justin Crooks",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Erika Harvey",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Jonathan Langridge",
+          "PartyAffiliation": "New Conservative"
+        },
+        {
+          "Name": "Leon Samuels",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Chelsea Stokman",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Mikaere Sydney",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Jan Tinetti",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Sam Uffindell",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Christine Young",
+          "PartyAffiliation": "ACT"
+        }
+      ]
+    },
+    {
+      "Name": "Te Atatū",
+      "Candidates": [
+        {
+          "Name": "Simon Court",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Zooey Neumann",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Angee Nicholas",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Melanie Phillips",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "John Tamihere",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Phil Twyford",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Tukituki",
+      "Candidates": [
+        {
+          "Name": "Rob Douglas",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Rob Hulman",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Anna Lorck",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Romana Manning",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Michael Ngahuka",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Melanie Petrowski",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Michael Ponk",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Nick Ratcliffe",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Allister Tosh"
+        },
+        {
+          "Name": "Catherine Wedd",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Upper Harbour",
+      "Candidates": [
+        {
+          "Name": "Cameron Brewer",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Karen Chhour",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Tony Corbett",
+          "PartyAffiliation": "New Zealand Sovereignty Party"
+        },
+        {
+          "Name": "Thea Doyle",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Shai Navot",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Chris Newman",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Bernadette Soares",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Vanushi Walters",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "David Wilson",
+          "PartyAffiliation": "NZ First"
+        }
+      ]
+    },
+    {
+      "Name": "Waikato",
+      "Candidates": [
+        {
+          "Name": "Lois Dornan",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Stu Husband",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Megan Owen",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Jamie Toko",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Tim van de Molen",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Waimakariri",
+      "Candidates": [
+        {
+          "Name": "Leighton Baker",
+          "PartyAffiliation": "Leighton Baker Party"
+        },
+        {
+          "Name": "Ross Campbell",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Matt Doocey",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Gordon Malcolm",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Dan Rosewarne",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Wairarapa",
+      "Candidates": [
+        {
+          "Name": "Pete Arnott",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Mike Butterick",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Simon Casey",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Jared Gardner",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Kieran McAnulty",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Celia Wade-Brown",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Te Whakapono Waikare",
+          "PartyAffiliation": "Te Pāti Māori"
+        }
+      ]
+    },
+    {
+      "Name": "Waitaki",
+      "Candidates": [
+        {
+          "Name": "Miles Anderson",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Ray Bailey",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Sean Beamish",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Pleasance Hansen",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Anthony Odering",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Ethan Reille",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Daniel Shand",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Roger Small",
+          "PartyAffiliation": "DemocracyNZ"
+        }
+      ]
+    },
+    {
+      "Name": "Wellington Central",
+      "Candidates": [
+        {
+          "Name": "Natalia Albert",
+          "PartyAffiliation": "The Opportunities Party"
+        },
+        {
+          "Name": "Michael Appleby",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Taylor Arneil",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Pete Bains",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Don Franks"
+        },
+        {
+          "Name": "Karl Geiringer",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Christopher Gordon",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Meg Lim",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Ibrahim Omer",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Tamatha Paul",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Scott Sheeran",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "West Coast-Tasman",
+      "Candidates": [
+        {
+          "Name": "Jackie Farrelly",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Sue Grey",
+          "PartyAffiliation": "Outdoors"
+        },
+        {
+          "Name": "Kelly Lilley",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Sebastian Marinkovich",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Damien O'Connor",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Richard Osmaston",
+          "PartyAffiliation": "Money Free Party"
+        },
+        {
+          "Name": "Patrick Phelps",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Maureen Pugh",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Steve Richards",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Whanganui",
+      "Candidates": [
+        {
+          "Name": "William Arnold",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Carl Bates",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Craig Dredge",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Sandra Kyle",
+          "PartyAffiliation": "Animal Justice"
+        },
+        {
+          "Name": "Steph Lewis",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Marion Sanson",
+          "PartyAffiliation": "Greens"
+        }
+      ]
+    },
+    {
+      "Name": "Whangaparāoa",
+      "Candidates": [
+        {
+          "Name": "Simon Angelo",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Craig Laybourn",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Mark Mitchell",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Estefania Muller-Pallares",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Lorraine Newman",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Jeanette Wilson",
+          "PartyAffiliation": "New Zealand Loyal"
+        }
+      ]
+    },
+    {
+      "Name": "Whangārei",
+      "Candidates": [
+        {
+          "Name": "Janita Andrews",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Rick Bazeley",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Gavin Benney",
+          "PartyAffiliation": "NZ First"
+        },
+        {
+          "Name": "Susy Bretherton",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Diana Burgess",
+          "PartyAffiliation": "DemocracyNZ"
+        },
+        {
+          "Name": "Jeni de Jong",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Fiona Greens",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Shane Reti",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Angie Warren-Clark",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Wigram",
+      "Candidates": [
+        {
+          "Name": "Blair Anderson",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Debra Cullimore",
+          "PartyAffiliation": "Leighton Baker Party"
+        },
+        {
+          "Name": "Tubby Hansen"
+        },
+        {
+          "Name": "Ankita Lynn",
+          "PartyAffiliation": "ACT"
+        },
+        {
+          "Name": "Geoff McTague",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Tracy Summerfield",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Wiremu Thomson",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Christine Van Duivenboden",
+          "PartyAffiliation": "New Zealand Loyal"
+        },
+        {
+          "Name": "Richard Wesley",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Megan Woods",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Hauraki-Waikato",
+      "Candidates": [
+        {
+          "Name": "Nanaia Mahuta",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Hana-Rawhiti Maipi-Clarke",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Donna Pokere-Phillips",
+          "PartyAffiliation": "Outdoors"
+        }
+      ]
+    },
+    {
+      "Name": "Ikaroa-Rāwhiti",
+      "Candidates": [
+        {
+          "Name": "Cushla Tangaere-Manuel",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Ata Tuhakaraina",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Meka Whaitiri",
+          "PartyAffiliation": "Te Pāti Māori"
+        }
+      ]
+    },
+    {
+      "Name": "Tāmaki Makaurau",
+      "Candidates": [
+        {
+          "Name": "Peeni Henare",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Takutai Moana Kemp",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Hannah Tamaki",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Darleen Tana Hoff-Nielsen",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Hinurewa te Hau",
+          "PartyAffiliation": "National"
+        }
+      ]
+    },
+    {
+      "Name": "Te Tai Hauāuru",
+      "Candidates": [
+        {
+          "Name": "Harete Hipango",
+          "PartyAffiliation": "National"
+        },
+        {
+          "Name": "Debbie Ngarewa-Packer",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Soraya Peke-Mason",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Paris Winiata",
+          "PartyAffiliation": "Vision NZ"
+        }
+      ]
+    },
+    {
+      "Name": "Te Tai Tokerau",
+      "Candidates": [
+        {
+          "Name": "Kelvin Davis",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Maki Herbert",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Mariameno Kapa-Kingi",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Hūhana Lyndon",
+          "PartyAffiliation": "Greens"
+        },
+        {
+          "Name": "Paturiri Toautu",
+          "PartyAffiliation": "Independent"
+        }
+      ]
+    },
+    {
+      "Name": "Te Tai Tonga",
+      "Candidates": [
+        {
+          "Name": "Tākuta Ferris",
+          "PartyAffiliation": "Te Pāti Māori"
+        },
+        {
+          "Name": "Geoffrey Karena Fuimaono Puhi",
+          "PartyAffiliation": "Independent"
+        },
+        {
+          "Name": "Rebecca Rae Robin",
+          "PartyAffiliation": "Legalise Cannabis"
+        },
+        {
+          "Name": "Rino Tirikatene",
+          "PartyAffiliation": "Labour"
+        }
+      ]
+    },
+    {
+      "Name": "Waiariki",
+      "Candidates": [
+        {
+          "Name": "Toni Boynton",
+          "PartyAffiliation": "Labour"
+        },
+        {
+          "Name": "Charles Hunia",
+          "PartyAffiliation": "Vision NZ"
+        },
+        {
+          "Name": "Rawiri Waititi",
+          "PartyAffiliation": "Te Pāti Māori"
+        }
+      ]
+    }
+  ]
 }
